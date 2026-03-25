@@ -310,7 +310,7 @@
       <ul class="pub-list">
         {% for pub in page.publications %}
         <li>
-          <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+          <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title | raw}}</a>
         </li>
         {% endfor %}
       </ul>
