@@ -14,14 +14,14 @@ photo: "Picture.jpg"
 
 # ── Bio ────────────────────────────────────────
 bio: >
-  I received my PhD in Accounting from the University of Bern (CH) in 2018 and joined Tilburg University's (NL) Department of Accountancy as Assistant Professor in the same year. In 2025, I left Tilburg. If you want to reach me after that, please contact me via the email above. 
+  I received my PhD in Accounting from the University of Bern (CH) in 2018 and joined Tilburg University's (NL) Department of Accountancy as Assistant Professor in the same year. In 2025, I left Tilburg and will no longer have access to my Tilburg email address. Please contact me via the email above. 
 
 # ── Research Interests ─────────────────────────────────
 interests:
   - Interaction of AI and Humans
   - Communication and Language
   - Feedback
-  - Norms, Morality and Fairness
+  - Norms, Morality, and Fairness
   - ESG and Sustainability
   - Delegation of Employees
 
@@ -55,9 +55,9 @@ links:
   - title: "Researchgate"
     url:   "https://www.researchgate.net/profile/Christoph-Hoerner"
     desc:  "Researchgate Profile"
-  - title: "Linked-In"
+  - title: "LinkedIn"
     url:   "https://www.linkedin.com/in/dr-christoph-h%C3%B6rner-1bb7862a/"
-    desc:  "Linked-In Profile"
+    desc:  "LinkedIn Profile"
     
 # ── Fußzeile ───────────────────────────────────
 updated: "03/2026"
