@@ -3,7 +3,7 @@ layout: sandsteinrot
 title: "About Christoph"
 
 # ── Persönliche Daten ──────────────────────────
-name:     "Christoph Hörner"
+name:     "About Christoph 2"
 role:     "Management Accounting Researcher · Experimentalist"
 email:    "research@christophhoerner.de"
 initials: "CH"
