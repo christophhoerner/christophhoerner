@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'de' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      background: #f5f0ea;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    main { width: 100%; max-width: 640px; }
+
+    /* ══════════════════════════════
+       HERO
+    ══════════════════════════════ */
+    .hero {
+      background: #7a3828;
+      border-radius: 14px 14px 0 0;
+      padding: 2.5rem 2.5rem 2.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      right: -50px; top: -70px;
+      width: 200px; height: 200px;
+      border-radius: 50%;
+      background: rgba(240, 200, 170, 0.1);
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      right: 60px; bottom: -90px;
+      width: 160px; height: 160px;
+      border-radius: 50%;
+      background: rgba(240, 200, 170, 0.07);
+    }
+
+    .hero-inner {
+      display: flex;
+      gap: 1.75rem;
+      align-items: flex-start;
+      position: relative;
+    }
+
+    .avatar {
+      width: 76px; height: 76px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      background: rgba(240, 200, 170, 0.18);
+      border: 1.5px solid rgba(240, 200, 170, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px; font-weight: 500;
+      color: #f0c8aa;
+      letter-spacing: 1px;
+      overflow: hidden;
+    }
+    .avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px; font-weight: 500;
+      color: #fdf4ee;
+      letter-spacing: -0.2px;
+      margin-bottom: 4px;
+    }
+
+    .hero-role {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #f0c8aa;
+      margin-bottom: 14px;
+      font-weight: 400;
+    }
+
+    .email-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: rgba(253, 244, 238, 0.65);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(240, 200, 170, 0.3);
+      padding-bottom: 1px;
+      transition: all 0.15s;
+    }
+    .email-link:hover { color: #fdf4ee; border-color: #f0c8aa; }
+
+    /* ══════════════════════════════
+       MITTELTEIL
+    ══════════════════════════════ */
+    .middle {
+      background: #ffffff;
+      padding: 2rem 2.5rem;
+    }
+
+    .section { margin-bottom: 1.75rem; }
+    .section:last-child { margin-bottom: 0; }
+
+    .section-label {
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #7a3828;
+      margin-bottom: 12px;
+      font-weight: 400;
+    }
+
+    .bio {
+      font-size: 15px;
+      line-height: 1.85;
+      color: #4a4642;
+    }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 7px; list-style: none; }
+    .tags li {
+      font-size: 12px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      color: #7a3828;
+      background: #faeee8;
+      border: 1px solid #edd0c2;
+    }
+
+    .pub-list { list-style: none; }
+    .pub-list li + li { border-top: 1px solid #f0ebe4; }
+
+    .pub-list a {
+      display: block;
+      padding: 10px 0;
+      font-size: 14px;
+      line-height: 1.55;
+      color: #2a1a14;
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .pub-list a:hover { color: #7a3828; }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #f0ebe4;
+      margin: 1.75rem 0;
+    }
+
+    /* ══════════════════════════════
+       LINKS-BLOCK
+    ══════════════════════════════ */
+    .links-block {
+      background: #3d2018;
+      border-radius: 0 0 14px 14px;
+      padding: 2rem 2.5rem;
+    }
+
+    .links-label {
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f0c8aa;
+      margin-bottom: 14px;
+      font-weight: 400;
+    }
+
+    .link-list { list-style: none; }
+    .link-list li + li { border-top: 1px solid rgba(255,255,255,0.08); }
+
+    .link-list a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 11px 0;
+      text-decoration: none;
+      color: #fdf4ee;
+      font-size: 14px;
+      transition: opacity 0.15s;
+    }
+    .link-list a:hover { opacity: 0.65; }
+
+    .link-meta { font-size: 12px; color: rgba(240, 200, 170, 0.6); }
+
+    footer {
+      text-align: center;
+      font-size: 11px;
+      color: #b0a898;
+      margin-top: 2rem;
+    }
+
+    /* ══════════════════════════════
+       DARK MODE
+    ══════════════════════════════ */
+    @media (prefers-color-scheme: dark) {
+      body        { background: #1a1614; }
+
+      .hero       { background: #6e3022; }
+      .hero-role  { color: #e8b898; }
+      .hero::before { background: rgba(240, 200, 170, 0.08); }
+      .hero::after  { background: rgba(240, 200, 170, 0.05); }
+
+      .avatar {
+        background: rgba(240, 200, 170, 0.15);
+        border-color: rgba(240, 200, 170, 0.25);
+      }
+
+      .email-link {
+        color: rgba(253, 244, 238, 0.55);
+        border-bottom-color: rgba(240, 200, 170, 0.25);
+      }
+
+      .middle     { background: #241a16; }
+
+      .section-label { color: #c07858; }
+
+      .bio        { color: #b8a898; }
+
+      .tags li {
+        color: #e8b898;
+        background: rgba(122, 56, 40, 0.3);
+        border-color: rgba(122, 56, 40, 0.5);
+      }
+
+      .pub-list li + li { border-top-color: rgba(255,255,255,0.06); }
+      .pub-list a       { color: #d4c4b8; }
+      .pub-list a:hover { color: #e8b898; }
+
+      .divider    { border-top-color: rgba(255,255,255,0.06); }
+
+      .links-block { background: #2e1610; }
+
+      .link-meta  { color: rgba(232, 184, 152, 0.5); }
+
+      footer      { color: #5a4e48; }
+    }
+
+    @media (max-width: 480px) {
+      .hero, .middle, .links-block { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .hero h1 { font-size: 22px; }
+      .avatar { width: 62px; height: 62px; font-size: 19px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="avatar">
+        {% if page.photo %}
+          <img src="{{ page.photo }}" alt="{{ page.name }}">
+        {% else %}
+          {{ page.initials }}
+        {% endif %}
+      </div>
+      <div>
+        <h1>{{ page.name }}</h1>
+        <p class="hero-role">{{ page.role }}</p>
+        <a class="email-link" href="mailto:{{ page.email }}">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7"/>
+          </svg>
+          {{ page.email }}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="middle">
+
+    {% if page.bio %}
+    <div class="section">
+      <p class="section-label">About</p>
+      <p class="bio">{{ page.bio }}</p>
+    </div>
+    {% endif %}
+
+    {% if page.interests %}
+    <hr class="divider">
+    <div class="section">
+      <p class="section-label">Research interests</p>
+      <ul class="tags">
+        {% for interest in page.interests %}
+          <li>{{ interest }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% if page.publications %}
+    <hr class="divider">
+    <div class="section">
+      <p class="section-label">Selected publications</p>
+      <ul class="pub-list">
+        {% for pub in page.publications %}
+        <li>
+          <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+  </div>
+
+  {% if page.links %}
+  <div class="links-block">
+    <p class="links-label">Links</p>
+    <ul class="link-list">
+      {% for link in page.links %}
+      <li>
+        <a href="{{ link.url }}" target="_blank" rel="noopener">
+          <span>{{ link.title }}</span>
+          <span class="link-meta">{{ link.desc }} ↗</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <footer>Last updated {{ page.updated }}</footer>
+
+</main>
+</body>
+</html>
