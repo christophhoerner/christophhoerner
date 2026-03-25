@@ -45,7 +45,7 @@ from an Eye-Tracking Study (with Ralf Frank)"
 links:
   - title: "SSRN"
     url:   "https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=2029006"
-    desc:  "SSRN Profile
+    desc:  "SSRN Profile"
   - title: "ORCID"
     url:   "https://orcid.org/0000-0002-8989-5669"
     desc:  "ORCID Profile"
