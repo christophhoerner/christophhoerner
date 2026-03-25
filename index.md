@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: sandsteinrot
 title: "Dr. Vorname Nachname"
 
 # ── Persönliche Daten ──────────────────────────
