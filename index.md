@@ -14,7 +14,7 @@ photo: "Picture.jpg"
 
 # ── Bio ────────────────────────────────────────
 bio: >
-  I received my PhD in Accounting from the University of Bern (CH) in 2018 and joined Tilburg University's Department of Accountancy as Assistant Professor in the same year. In 2025, I left Tilburg. If you want to reach me after that, please contact me via the email above. 
+  I received my PhD in Accounting from the University of Bern (CH) in 2018 and joined Tilburg University's (NL) Department of Accountancy as Assistant Professor in the same year. In 2025, I left Tilburg. If you want to reach me after that, please contact me via the email above. 
 
 # ── Research Interests ─────────────────────────────────
 interests:
