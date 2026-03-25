@@ -1,36 +1,35 @@
 ---
 layout: sandsteinrot
-title: "Dr. Vorname Nachname"
+title: "About Christoph"
 
 # ── Persönliche Daten ──────────────────────────
-name:     "Dr. Vorname Nachname"
-role:     "Fachbereich · Institut · Universität"
-email:    "vorname@example.com"
-initials: "MH"
+name:     "Christoph Hörner"
+role:     "Management Accountanting Researcher · Experimentalist"
+email:    "research@christophhoerner.de"
+initials: "CH"
 
 # Foto (optional): Kommentiere die nächste Zeile ein
 # und lege die Datei ins gleiche Verzeichnis.
-# photo: "foto.jpg"
+photo: "Picture.jpg"
 
 # ── Bio ────────────────────────────────────────
 bio: >
-  Hier steht ein kurzer Text über dich und deine Arbeit.
-  Was erforschst du? Welche Fragen treiben dich an?
-  Du kannst auch erwähnen, was dich außerhalb der
-  Wissenschaft beschäftigt – zwei bis vier Sätze reichen völlig.
+  I received my PhD in Accounting from the University of Bern (CH) in 2018 and joined Tilburg University's Department of Accountancy as Assistant Professor in the same year. In 2025, I left Tilburg. If you want to reach me after that, please contact me via the email above. 
 
-# ── Interessen ─────────────────────────────────
+# ── Research Interests ─────────────────────────────────
 interests:
-  - Interesse 1
-  - Interesse 2
-  - Interesse 3
-  - Interesse 4
-  - Interesse 5
+  - Interaction of AI and Humans
+  - Communication and Language
+  - Feedback
+  - Norms, Morality and Fairness
+  - ESG and Sustainability
+  - Delegation of Employees
 
-# ── Publikationen ──────────────────────────────
+# ── (Working) Papers ──────────────────────────────
 publications:
-  - title: "Titel der Publikation 1"
-    url:   "https://DOI-ODER-URL-1"
+  - title: "Hörner, C. 2023. “Should Firms Tie Executive Compensation to ESG Targets?” Accountability in a Sustainable 
+Word Quarterly 2(1): 23 – 27"
+    url:   "https://online.fliphtml5.com/jdbmp/houb/#p=26"
   - title: "Titel der Publikation 2"
     url:   "https://DOI-ODER-URL-2"
   - title: "Titel der Publikation 3"
