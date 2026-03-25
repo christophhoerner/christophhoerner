@@ -3,7 +3,7 @@ layout: sandsteinrot
 title: "About Christoph"
 
 # ── Persönliche Daten ──────────────────────────
-fullname: "Max Mustermann"
+fullname: "Christoph Hörner"
 role:     "Management Accounting Researcher · Experimentalist"
 email:    "research@christophhoerner.de"
 initials: "CH"
