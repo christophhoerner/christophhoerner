@@ -41,22 +41,16 @@ Word Quarterly 2(1): 23 – 27."
 
 # ── Links ──────────────────────────────────────
 links:
-  - title: "Link-Titel 1"
-    url:   "https://LINK-1-URL"
-    desc:  "Kurzbeschreibung"
-  - title: "Link-Titel 2"
-    url:   "https://LINK-2-URL"
-    desc:  "Kurzbeschreibung"
-  - title: "Link-Titel 3"
-    url:   "https://LINK-3-URL"
-    desc:  "Kurzbeschreibung"
-  - title: "Link-Titel 4"
-    url:   "https://LINK-4-URL"
-    desc:  "Kurzbeschreibung"
-  - title: "Link-Titel 5"
-    url:   "https://LINK-5-URL"
-    desc:  "Kurzbeschreibung"
+  - title: "ORCID"
+    url:   "https://orcid.org/0000-0002-8989-5669"
+    desc:  "ORCID Page"
+  - title: "Google Scholar"
+    url:   "https://scholar.google.com/citations?user=ANJbdIYAAAAJ&hl=de"
+    desc:  "Google Scholar Page"
+  - title: "Linked-In"
+    url:   "https://www.linkedin.com/in/dr-christoph-h%C3%B6rner-1bb7862a/"
+    desc:  "Linked-In Profile"
 
 # ── Fußzeile ───────────────────────────────────
-updated: "März 2026"
+updated: "03/2026"
 ---
