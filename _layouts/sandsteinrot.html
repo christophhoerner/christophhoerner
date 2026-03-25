@@ -286,7 +286,7 @@
 
     {% if page.bio %}
     <div class="section">
-      <p class="section-label">About</p>
+      <p class="section-label">About Me</p>
       <p class="bio">{{ page.bio }}</p>
     </div>
     {% endif %}
@@ -294,7 +294,7 @@
     {% if page.interests %}
     <hr class="divider">
     <div class="section">
-      <p class="section-label">Research interests</p>
+      <p class="section-label">Research Interests</p>
       <ul class="tags">
         {% for interest in page.interests %}
           <li>{{ interest }}</li>
@@ -306,7 +306,7 @@
     {% if page.publications %}
     <hr class="divider">
     <div class="section">
-      <p class="section-label">Selected publications</p>
+      <p class="section-label">(Working) Papers</p>
       <ul class="pub-list">
         {% for pub in page.publications %}
         <li>
@@ -321,7 +321,7 @@
 
   {% if page.links %}
   <div class="links-block">
-    <p class="links-label">Links</p>
+    <p class="links-label">Links to Other Profiles</p>
     <ul class="link-list">
       {% for link in page.links %}
       <li>
