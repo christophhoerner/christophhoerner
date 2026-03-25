@@ -30,17 +30,22 @@ publications:
   - title: "Hörner, C. 2023. “Should Firms Tie Executive Compensation to ESG Targets?” Accountability in a Sustainable 
 Word Quarterly 2(1): 23 – 27."
     url:   "https://online.fliphtml5.com/jdbmp/houb/#p=26"
-  - title: "Titel der Publikation 2"
-    url:   "https://DOI-ODER-URL-2"
-  - title: "Titel der Publikation 3"
-    url:   "https://DOI-ODER-URL-3"
-  - title: "Titel der Publikation 4"
-    url:   "https://DOI-ODER-URL-4"
-  - title: "Titel der Publikation 5"
-    url:   "https://DOI-ODER-URL-5"
+  - title: "Agency Costs of Moral Accounting in Hierarchical Relationships"
+    url:   "http://dx.doi.org/10.2139/ssrn.3228425"
+  - title: ""I Am No Human After All": Receiving Negative Feedback from AI versus Humans (with Florian Elsinger)"
+    url:   "http://dx.doi.org/10.2139/ssrn.4946407"
+  - title: "Do Investment Professionals Consider the Effects on Society Beyond the Financial Effects of Sustainability 
+Disclosures? Implications for Standard Setters (with Markus Arnold, Patrick Martin, and Don Moser)"
+    url:   "http://dx.doi.org/10.2139/ssrn.3020887"
+  - title: "How Graphics Can Influence Investment Professionals’ Valuations in Judgments with Limited Time: Evidence 
+from an Eye-Tracking Study (with Ralf Frank)"
+    url:   "http://dx.doi.org/10.2139/ssrn.4369015"
 
 # ── Links ──────────────────────────────────────
 links:
+  - title: "SSRN"
+    url:   "https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=2029006"
+    desc:  "SSRN Profile
   - title: "ORCID"
     url:   "https://orcid.org/0000-0002-8989-5669"
     desc:  "ORCID Profile"
