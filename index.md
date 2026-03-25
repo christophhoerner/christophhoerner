@@ -27,12 +27,12 @@ interests:
 
 # ── (Working) Papers ──────────────────────────────
 publications:
-  - title: "Hörner, C. 2023. Should Firms Tie Executive Compensation to ESG Targets? Accountability in a Sustainable 
+  - title: "Should Firms Tie Executive Compensation to ESG Targets? (2023) Accountability in a Sustainable 
 Word Quarterly 2(1): 23 – 27."
     url:   "https://online.fliphtml5.com/jdbmp/houb/#p=26"
   - title: "Agency Costs of Moral Accounting in Hierarchical Relationships"
     url:   "http://dx.doi.org/10.2139/ssrn.3228425"
-  - title: "I Am No Human After All: Receiving Negative Feedback from AI versus Humans (with Florian Elsinger)"
+  - title: "'I Am No Human After All': Receiving Negative Feedback from AI versus Humans (with Florian Elsinger)"
     url:   "http://dx.doi.org/10.2139/ssrn.4946407"
   - title: "Do Investment Professionals Consider the Effects on Society Beyond the Financial Effects of Sustainability 
 Disclosures? Implications for Standard Setters (with Markus Arnold, Patrick Martin, and Don Moser)"
