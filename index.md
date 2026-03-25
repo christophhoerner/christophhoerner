@@ -43,14 +43,17 @@ Word Quarterly 2(1): 23 – 27."
 links:
   - title: "ORCID"
     url:   "https://orcid.org/0000-0002-8989-5669"
-    desc:  "ORCID Page"
+    desc:  "ORCID Profile"
   - title: "Google Scholar"
     url:   "https://scholar.google.com/citations?user=ANJbdIYAAAAJ&hl=de"
-    desc:  "Google Scholar Page"
+    desc:  "Google Scholar Profile"
+  - title: "Researchgate"
+    url:   "https://www.researchgate.net/profile/Christoph-Hoerner"
+    desc:  "Researchgate Profile"
   - title: "Linked-In"
     url:   "https://www.linkedin.com/in/dr-christoph-h%C3%B6rner-1bb7862a/"
     desc:  "Linked-In Profile"
-
+    
 # ── Fußzeile ───────────────────────────────────
 updated: "03/2026"
 ---
