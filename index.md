@@ -4,7 +4,7 @@ title: "About Christoph"
 
 # ── Persönliche Daten ──────────────────────────
 name:     "Christoph Hörner"
-role:     "Management Accountanting Researcher · Experimentalist"
+role:     "Management Accounting Researcher · Experimentalist"
 email:    "research@christophhoerner.de"
 initials: "CH"
 
@@ -28,7 +28,7 @@ interests:
 # ── (Working) Papers ──────────────────────────────
 publications:
   - title: "Hörner, C. 2023. “Should Firms Tie Executive Compensation to ESG Targets?” Accountability in a Sustainable 
-Word Quarterly 2(1): 23 – 27"
+Word Quarterly 2(1): 23 – 27."
     url:   "https://online.fliphtml5.com/jdbmp/houb/#p=26"
   - title: "Titel der Publikation 2"
     url:   "https://DOI-ODER-URL-2"
