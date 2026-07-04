@@ -4,7 +4,7 @@ title: "About Christoph"
 
 # ── Persönliche Daten ──────────────────────────
 fullname: "Christoph Hörner"
-role:     "Management Accounting · Experimental Researcher"
+role:     "Management Accounting · Experimental Research"
 email:    "research@christophhoerner.de"
 initials: "CH"
 
